@@ -7,6 +7,15 @@ class About extends React.Component {
             <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
                 <div className="site-About">
                     <div className="container">
+                    <button class="snipcart-add-item"
+  data-item-id="starry-night"
+  data-item-price="79.99"
+  data-item-url="/paintings/starry-night"
+  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+  data-item-image="/assets/images/starry-night.jpg"
+  data-item-name="The Starry Night">
+  Add to cart
+</button>
                     <div className="row">
                         <div className="col-sm-12">
                             <h1>Gatsby Starter: Ecommerce and Flotiq</h1>
@@ -25,6 +34,15 @@ class About extends React.Component {
                             </ul>
 
                             <h2 id="learningflotiq">Learning Flotiq</h2>
+                            <button class="snipcart-add-item"
+  data-item-id="starry-night"
+  data-item-price="79.99"
+  data-item-url="/"
+  data-item-description="High-quality replica of The Starry Night by the Dutch post-impressionist painter Vincent van Gogh."
+  data-item-image="/assets/images/starry-night.jpg"
+  data-item-name="The Starry Night">
+  Add to cart
+</button>
 
                             <p>Using Flotiq you model, author and consume your content, your way. Flotiq is an API-first CMS that takes care of hosting, securing and scaling to guarantee your content is always on.</p>
                             <p>See what you can do with Flotiq Headless CMS System:</p>
