@@ -46,11 +46,11 @@ const ProductDetails = data => (
           <div className="col-sm-10 text-left">
             <a
               href="/"
-              className="Product snipcart-add-item"
+              className="snipcart-add-item"
               data-item-id={data.data.product.slug}
               data-item-price={data.data.product.price}
               data-item-image={data.data.product.productImage && data.data.product.productImage[0] ? `${process.env.GATSBY_FLOTIQ_BASE_URL}/image/1920x0/${data.data.product.productImage[0].id}.${data.data.product.productImage[0].extension}` : ""}              data-item-name={data.data.product.name}
-              data-item-url={`/`}
+              data-item-url="/"
             >
               <i className="fas fa-tags" />
               Buy Now
