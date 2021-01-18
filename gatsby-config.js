@@ -29,7 +29,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `OneShopper`,
+        name: `eMsShop`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#4DB58E`,
