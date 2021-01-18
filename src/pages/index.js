@@ -48,7 +48,7 @@ class IndexPost extends React.Component {
                               : ""
                           }
                           data-item-name={item.node.name}
-                          data-item-url={`/`}
+                          data-item-url='https://emsstore.herokuapp.com/'
                         >
                           <i className="fas fa-shopping-bag" />
                           Add to Cart
