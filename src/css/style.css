@@ -12,6 +12,11 @@
 .product-details{}
 .product-details .gatsby-image-wrapper{height:500px;}
 
+* {
+  font-family: Baskerville Old Face;
+  
+}
+
 /* header css */
 header.site-header{width:100%;background:#333333;z-index:9;padding:20px 0;}
 ul.navbar-nav.mr-auto li{margin-bottom:0;}
