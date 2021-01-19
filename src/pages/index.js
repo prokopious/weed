@@ -71,7 +71,7 @@ const IndexPage = data => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <div className="container">
       <div className="text-center mt-5">
-        <h2 className="with-underline">All Items</h2>
+        <h2>All Items</h2>
       </div>
       <IndexPost data={data}></IndexPost>
     </div>

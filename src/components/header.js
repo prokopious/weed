@@ -4,7 +4,7 @@ import React from "react"
 import "../css/font-awesome.css"
 import "bootstrap/dist/css/bootstrap.css"
 import "../css/style.css"
-import logo from "../images/oneshopper-logo.png"
+import logo from "../images/logo.png"
 
 
 
@@ -12,8 +12,9 @@ const Header = ({ siteTitle }) => (
   <header className="site-header">
     <div className="container">
       <div className="row">
+        
         <div className="col-sm-12 col-md-4 align-self-center">
-          <Link className="header-logo" to="/"><img src={logo} alt="OneShopper logo"></img></Link>
+          <Link className="header-logo" to="/"><div>e<span>M</span></div></Link>
         </div>
         <div className="col-sm-12 col-md-8 align-self-center">
           <nav>
